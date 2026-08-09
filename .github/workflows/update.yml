@@ -25,6 +25,11 @@ jobs:
         uses: actions/checkout@v4
 
 
+      - name: Install packages
+        run: |
+          pip install akshare pandas
+
+
       - name: Get stock list
         run: python scripts/get_stock_list.py
 
