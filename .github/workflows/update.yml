@@ -3,31 +3,44 @@ name: Update Stock Data
 permissions:
   contents: write
 
+
 on:
   schedule:
     - cron: "25 1 * * 1-5"
 
   workflow_dispatch:
 
+
 jobs:
+
   update:
+
     runs-on: ubuntu-latest
 
+
     steps:
+
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
+
+      - name: Get stock list
+        run: python scripts/get_stock_list.py
+
+
       - name: Run stock update
         run: python scripts/update_data.py
+
 
       - name: Analyze stocks
         run: python scripts/analyze_stock.py
 
-      - name: Commit ranking data
+
+      - name: Commit data
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add data/ranking.json
-          git commit -m "Update stock ranking" || echo "No changes"
+          git add data
+          git commit -m "Update stock data" || echo "No changes"
           git push
