@@ -11,11 +11,8 @@ url = "https://push2.eastmoney.com/api/qt/clist/get"
 params = {
 
     "pn": 1,
-
     "pz": 6000,
-
     "fs": "m:0+t:6,m:1+t:2",
-
     "fields": "f12,f14"
 
 }
@@ -36,7 +33,12 @@ response = requests.get(
 )
 
 
-data = response.json()
+
+result = response.json()
+
+
+
+print("接口返回成功")
 
 
 
@@ -44,7 +46,13 @@ stocks = []
 
 
 
-for item in data["data"]["diff"]:
+# 检查数据结构
+
+items = result["data"]["diff"]
+
+
+
+for item in items:
 
     stocks.append({
 
@@ -68,6 +76,7 @@ with open(
         ensure_ascii=False,
         indent=2
     )
+
 
 
 print(
