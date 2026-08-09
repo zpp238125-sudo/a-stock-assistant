@@ -1,33 +1,801 @@
 [
   {
-    "code": "600737",
-    "name": "",
-    "price": 13.53,
-    "change": 5.54,
+    "code": "000009",
+    "name": "中国宝安",
+    "price": 8.1,
+    "change": 8.0,
     "score": 30,
     "reason": "今日涨幅强势"
   },
   {
-    "code": "002167",
-    "name": "",
-    "price": 17.22,
+    "code": "000056",
+    "name": "*ST皇庭",
+    "price": 2.14,
+    "change": 3.88,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000060",
+    "name": "中金岭南",
+    "price": 6.81,
+    "change": 3.34,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000078",
+    "name": "ST海王",
+    "price": 1.74,
+    "change": 4.82,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000408",
+    "name": "藏格矿业",
+    "price": 90.0,
+    "change": 3.7,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000017",
+    "name": "深中华A",
+    "price": 6.18,
+    "change": 0.16,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000021",
+    "name": "深科技",
+    "price": 40.85,
+    "change": 2.36,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000026",
+    "name": "飞亚达",
+    "price": 17.34,
+    "change": 1.46,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000030",
+    "name": "富奥股份",
+    "price": 4.26,
+    "change": 0.47,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000032",
+    "name": "深桑达Ａ",
+    "price": 14.8,
+    "change": 1.51,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000036",
+    "name": "华联控股",
+    "price": 4.22,
+    "change": 1.44,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000039",
+    "name": "中集集团",
+    "price": 8.58,
     "change": 0.94,
     "score": 10,
     "reason": "今日涨幅强势"
   },
   {
-    "code": "600597",
-    "name": "",
-    "price": 6.72,
-    "change": -1.61,
+    "code": "000050",
+    "name": "深天马Ａ",
+    "price": 6.76,
+    "change": 0.75,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000059",
+    "name": "华锦股份",
+    "price": 4.59,
+    "change": 0.22,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000062",
+    "name": "深圳华强",
+    "price": 23.42,
+    "change": 1.87,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000066",
+    "name": "中国长城",
+    "price": 14.82,
+    "change": 0.61,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000070",
+    "name": "特发信息",
+    "price": 14.65,
+    "change": 2.73,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000096",
+    "name": "广聚能源",
+    "price": 7.77,
+    "change": 0.13,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000100",
+    "name": "TCL科技",
+    "price": 4.86,
+    "change": 0.83,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000153",
+    "name": "丰原药业",
+    "price": 5.61,
+    "change": 0.9,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000155",
+    "name": "川能动力",
+    "price": 12.04,
+    "change": 0.58,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000301",
+    "name": "东方盛虹",
+    "price": 13.1,
+    "change": 1.55,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000338",
+    "name": "潍柴动力",
+    "price": 30.15,
+    "change": 2.62,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000403",
+    "name": "派林生物",
+    "price": 10.6,
+    "change": 0.95,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000404",
+    "name": "长虹华意",
+    "price": 7.68,
+    "change": 0.13,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000411",
+    "name": "英特集团",
+    "price": 9.65,
+    "change": 0.63,
+    "score": 10,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000001",
+    "name": "平安银行",
+    "price": 11.19,
+    "change": -0.71,
     "score": 0,
     "reason": "今日涨幅强势"
   },
   {
-    "code": "601985",
-    "name": "",
-    "price": 8.8,
-    "change": -0.34,
+    "code": "000002",
+    "name": "万  科Ａ",
+    "price": 3.22,
+    "change": -1.23,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000003",
+    "name": "PT金田A",
+    "price": 2.71,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000004",
+    "name": "国华退",
+    "price": 0.51,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000005",
+    "name": "ST星源",
+    "price": 0.83,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000006",
+    "name": "深振业Ａ",
+    "price": 6.73,
+    "change": -1.46,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000007",
+    "name": "全新好",
+    "price": 9.66,
+    "change": -1.63,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000008",
+    "name": "神州高铁",
+    "price": 2.42,
+    "change": -0.82,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000010",
+    "name": "*ST美丽",
+    "price": 1.54,
+    "change": -1.91,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000011",
+    "name": "深物业A",
+    "price": 7.76,
+    "change": -4.2,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000012",
+    "name": "南  玻Ａ",
+    "price": 3.85,
+    "change": -1.03,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000013",
+    "name": "*ST石化A",
+    "price": 2.47,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000014",
+    "name": "沙河股份",
+    "price": 9.94,
+    "change": -1.58,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000015",
+    "name": "PT中浩A",
+    "price": 6.85,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000016",
+    "name": "*ST康佳A",
+    "price": 2.56,
+    "change": -1.16,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000018",
+    "name": "神城A退",
+    "price": 0.27,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000019",
+    "name": "深粮控股",
+    "price": 6.11,
+    "change": -2.86,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000020",
+    "name": "深华发Ａ",
+    "price": 10.92,
+    "change": -1.27,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000023",
+    "name": "*ST深天",
+    "price": 1.72,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000024",
+    "name": "招商地产",
+    "price": 40.5,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000025",
+    "name": "特  力Ａ",
+    "price": 14.95,
+    "change": -1.32,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000027",
+    "name": "深圳能源",
+    "price": 6.35,
+    "change": -0.31,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000028",
+    "name": "国药一致",
+    "price": 20.32,
+    "change": -0.39,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000029",
+    "name": "深深房Ａ",
+    "price": 22.14,
+    "change": -1.12,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000031",
+    "name": "大悦城",
+    "price": 2.19,
+    "change": -2.23,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000033",
+    "name": "新都退",
+    "price": 1.7,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000034",
+    "name": "神州数码",
+    "price": 25.13,
+    "change": -1.72,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000035",
+    "name": "中国天楹",
+    "price": 4.82,
+    "change": -2.82,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000037",
+    "name": "深南电A",
+    "price": 10.01,
+    "change": -0.6,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000038",
+    "name": "大通退",
+    "price": 0.52,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000040",
+    "name": "*ST旭蓝",
+    "price": 0.49,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000042",
+    "name": "中洲控股",
+    "price": 8.39,
+    "change": -0.24,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000045",
+    "name": "深纺织Ａ",
+    "price": 9.93,
+    "change": -1.97,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000046",
+    "name": "*ST泛海",
+    "price": 0.38,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000047",
+    "name": "ST中侨",
+    "price": 8.03,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000048",
+    "name": "京基智农",
+    "price": 21.4,
+    "change": -0.93,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000049",
+    "name": "德赛电池",
+    "price": 24.66,
+    "change": -0.16,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000055",
+    "name": "方大集团",
+    "price": 3.41,
+    "change": -1.16,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000058",
+    "name": "深 赛 格",
+    "price": 6.67,
+    "change": -2.06,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000061",
+    "name": "农 产 品",
+    "price": 5.79,
+    "change": -1.36,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000063",
+    "name": "中兴通讯",
+    "price": 34.7,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000065",
+    "name": "北方国际",
+    "price": 9.11,
+    "change": -0.98,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000068",
+    "name": "华控赛格",
+    "price": 2.86,
+    "change": -1.72,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000069",
+    "name": "华侨城Ａ",
+    "price": 1.85,
+    "change": -4.15,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000088",
+    "name": "盐 田 港",
+    "price": 4.44,
+    "change": -0.67,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000089",
+    "name": "深圳机场",
+    "price": 6.49,
+    "change": -1.52,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000090",
+    "name": "天健集团",
+    "price": 3.37,
+    "change": -1.46,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000099",
+    "name": "中信海直",
+    "price": 14.2,
+    "change": -1.11,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000150",
+    "name": "*ST宜康",
+    "price": 0.51,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000151",
+    "name": "中成股份",
+    "price": 9.93,
+    "change": -1.59,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000156",
+    "name": "华数传媒",
+    "price": 6.81,
+    "change": -1.45,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000157",
+    "name": "中联重科",
+    "price": 7.22,
+    "change": -0.69,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000158",
+    "name": "常山北明",
+    "price": 13.56,
+    "change": -1.74,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000159",
+    "name": "国际实业",
+    "price": 5.62,
+    "change": -2.6,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000166",
+    "name": "申万宏源",
+    "price": 4.54,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000333",
+    "name": "美的集团",
+    "price": 83.5,
+    "change": -2.13,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000400",
+    "name": "许继电气",
+    "price": 22.76,
+    "change": -0.44,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000401",
+    "name": "金隅冀东",
+    "price": 3.58,
+    "change": -1.38,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000402",
+    "name": "金 融 街",
+    "price": 2.46,
+    "change": -1.99,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000405",
+    "name": "ST鑫光",
+    "price": 2.86,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000406",
+    "name": "石油大明",
+    "price": 10.12,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000407",
+    "name": "胜利股份",
+    "price": 4.04,
+    "change": -0.74,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000409",
+    "name": "云鼎科技",
+    "price": 8.75,
+    "change": -2.02,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000410",
+    "name": "沈阳机床",
+    "price": 4.88,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000412",
+    "name": "ST五环",
+    "price": 2.89,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000413",
+    "name": "ST旭电",
+    "price": 0.37,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000415",
+    "name": "渤海租赁",
+    "price": 4.52,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000416",
+    "name": "*ST民控",
+    "price": 0.45,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000417",
+    "name": "合百集团",
+    "price": 5.96,
+    "change": -1.32,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000418",
+    "name": "小天鹅A",
+    "price": 57.39,
+    "change": 0.0,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000419",
+    "name": "通程控股",
+    "price": 4.85,
+    "change": -1.02,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000420",
+    "name": "吉林化纤",
+    "price": 3.77,
+    "change": -0.26,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000421",
+    "name": "南京公用",
+    "price": 5.33,
+    "change": -1.3,
+    "score": 0,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000422",
+    "name": "湖北宜化",
+    "price": 13.2,
+    "change": -0.83,
     "score": 0,
     "reason": "今日涨幅强势"
   }
