@@ -5,70 +5,54 @@ import requests
 print("开始获取A股股票列表")
 
 
-url = "https://qt.gtimg.cn/q=sh000001"
+url = "https://push2.eastmoney.com/api/qt/clist/get"
+
+
+params = {
+
+    "pn": 1,
+
+    "pz": 6000,
+
+    "fs": "m:0+t:6,m:1+t:2",
+
+    "fields": "f12,f14"
+
+}
 
 
 headers = {
+
     "User-Agent": "Mozilla/5.0"
+
 }
+
 
 
 response = requests.get(
     url,
+    params=params,
     headers=headers
 )
 
 
-if response.status_code == 200:
-
-    print("接口连接成功")
+data = response.json()
 
 
-else:
-
-    print("接口连接失败")
-
-
-
-# 临时股票池测试
 
 stocks = []
 
 
-# 沪市股票示例
-sh_codes = [
-    "600597",
-    "600737",
-    "601985"
-]
 
+for item in data["data"]["diff"]:
 
-# 深市股票示例
-sz_codes = [
-    "002167"
-]
+    stocks.append({
 
+        "code": item["f12"],
 
+        "name": item["f14"]
 
-for code in sh_codes:
-
-    stocks.append(
-        {
-            "code": code,
-            "name": ""
-        }
-    )
-
-
-
-for code in sz_codes:
-
-    stocks.append(
-        {
-            "code": code,
-            "name": ""
-        }
-    )
+    })
 
 
 
@@ -87,6 +71,6 @@ with open(
 
 
 print(
-    "股票池生成完成:",
+    "股票池数量:",
     len(stocks)
 )
