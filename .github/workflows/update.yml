@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test
-        run: echo "股票助手自动运行"
+      - name: Run stock update
+        run: python scripts/update_data.py
