@@ -17,3 +17,6 @@ jobs:
 
       - name: Run stock update
         run: python scripts/update_data.py
+
+      - name: Analyze stocks
+        run: python scripts/analyze_stock.py
