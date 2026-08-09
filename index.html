@@ -2,128 +2,137 @@
 <html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AI股票助手</title>
+<meta charset="UTF-8">
 
-    <style>
-        body {
-            font-family: "Microsoft YaHei", Arial, sans-serif;
-            background: #f5f6fa;
-            margin: 0;
-            padding: 20px;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        .container {
-            max-width: 700px;
-            margin: auto;
-        }
+<title>A股智能助手</title>
 
-        h1 {
-            text-align: center;
-        }
 
-        .card {
-            background: white;
-            padding: 20px;
-            margin-top: 15px;
-            border-radius: 12px;
-        }
+<style>
 
-        .title {
-            font-size: 20px;
-            font-weight: bold;
-        }
+body{
 
-        .loading {
-            color: #888;
-        }
+    font-family: Arial, sans-serif;
 
-    </style>
+    background:#f5f5f5;
+
+    margin:20px;
+
+}
+
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:10px;
+
+}
+
+
+.title{
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+
+.loading{
+
+    color:#888;
+
+}
+
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #ddd;
+
+}
+
+</style>
+
 
 </head>
 
 
+
 <body>
 
-<div class="container">
-
-
-<h1>📈 AI股票助手</h1>
 
 
 <div class="card">
 
-<div class="title">
-市场状态
-</div>
-
-<p>
-更新时间：
-<span class="loading">
-等待行情接入
-</span>
-</p>
-
-<p>
-市场温度：
-<span class="loading">
-等待计算
-</span>
-</p>
-
-</div>
-
-
-<div class="card">
 
 <div class="title">
+
 我的持仓
+
 </div>
+
 
 <div id="portfolio">
+
 <p class="loading">
+
 等待读取持仓数据...
+
 </p>
-</div>
 
 </div>
+
+
+</div>
+
+
 
 
 
 <div class="card">
 
+
 <div class="title">
-今日候选股票
+
+今日关注股票
+
 </div>
 
+
+<div id="ranking">
+
+
 <p class="loading">
-等待市场扫描...
+
+正在分析市场...
+
 </p>
 
 
 </div>
 
 
-
-<div class="card">
-
-<div class="title">
-AI分析建议
-</div>
-
-<p class="loading">
-等待AI分析...
-</p>
-
-
 </div>
 
 
-</div>
+
 
 <script src="script.js"></script>
+
+
+
 </body>
+
 
 </html>
