@@ -1,6 +1,8 @@
+import json
 import requests
 
-print("开始测试东方财富A股接口")
+
+print("开始生成A股股票池")
 
 
 url = "https://push2.eastmoney.com/api/qt/clist/get"
@@ -8,16 +10,14 @@ url = "https://push2.eastmoney.com/api/qt/clist/get"
 
 params = {
     "pn": 1,
-    "pz": 20,
+    "pz": 6000,
     "po": 1,
     "np": 1,
     "fltt": 2,
     "invt": 2,
     "fid": "f3",
-
     "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
-
-    "fields": "f12,f14,f2,f3"
+    "fields": "f12,f14"
 }
 
 
@@ -35,10 +35,46 @@ response = requests.get(
 )
 
 
-print("状态码：", response.status_code)
+result = response.json()
 
-print("返回长度：", len(response.text))
 
-print("返回前500字符：")
+items = result["data"]["diff"]
 
-print(response.text[:500])
+
+stocks = []
+
+
+for item in items:
+
+    stocks.append({
+
+        "code": item["f12"],
+
+        "name": item["f14"]
+
+    })
+
+
+with open(
+    "data/all_stocks.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    json.dump(
+        stocks,
+        f,
+        ensure_ascii=False,
+        indent=2
+    )
+
+
+print(
+    "股票池数量:",
+    len(stocks)
+)
+
+
+print(
+    "股票池生成完成"
+)
