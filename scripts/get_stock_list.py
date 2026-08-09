@@ -8,36 +8,68 @@ print("开始获取A股股票列表")
 url = "https://qt.gtimg.cn/q=sh000001"
 
 
-# 测试接口连接
-response = requests.get(url)
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-print("行情接口连接成功")
+
+response = requests.get(
+    url,
+    headers=headers
+)
 
 
-# 暂时先创建股票池文件
-stocks = [
+if response.status_code == 200:
 
-    {
-        "code": "600597",
-        "name": "光明乳业"
-    },
+    print("接口连接成功")
 
-    {
-        "code": "600737",
-        "name": "中粮糖业"
-    },
 
-    {
-        "code": "601985",
-        "name": "中国核电"
-    },
+else:
 
-    {
-        "code": "002167",
-        "name": "东方锆业"
-    }
+    print("接口连接失败")
 
+
+
+# 临时股票池测试
+
+stocks = []
+
+
+# 沪市股票示例
+sh_codes = [
+    "600597",
+    "600737",
+    "601985"
 ]
+
+
+# 深市股票示例
+sz_codes = [
+    "002167"
+]
+
+
+
+for code in sh_codes:
+
+    stocks.append(
+        {
+            "code": code,
+            "name": ""
+        }
+    )
+
+
+
+for code in sz_codes:
+
+    stocks.append(
+        {
+            "code": code,
+            "name": ""
+        }
+    )
+
 
 
 with open(
@@ -54,4 +86,7 @@ with open(
     )
 
 
-print("股票列表更新完成")
+print(
+    "股票池生成完成:",
+    len(stocks)
+)
