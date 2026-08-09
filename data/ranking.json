@@ -798,5 +798,805 @@
     "change": 10.0,
     "score": 30,
     "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600183",
+    "name": "生益科技",
+    "price": 139.98,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002943",
+    "name": "宇晶股份",
+    "price": 35.96,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688102",
+    "name": "斯瑞新材",
+    "price": 38.05,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600206",
+    "name": "有研新材",
+    "price": 48.17,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002428",
+    "name": "云南锗业",
+    "price": 100.08,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603459",
+    "name": "红板科技",
+    "price": 105.58,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000831",
+    "name": "中国稀土",
+    "price": 57.19,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603124",
+    "name": "江南新材",
+    "price": 141.66,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "605289",
+    "name": "罗曼股份",
+    "price": 104.49,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002281",
+    "name": "光迅科技",
+    "price": 193.04,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603757",
+    "name": "大元泵业",
+    "price": 65.01,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603660",
+    "name": "苏州科达",
+    "price": 11.99,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603186",
+    "name": "华正新材",
+    "price": 143.0,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603137",
+    "name": "恒尚节能",
+    "price": 27.5,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603102",
+    "name": "百合股份",
+    "price": 37.51,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600601",
+    "name": "方正科技",
+    "price": 12.87,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002821",
+    "name": "凯莱英",
+    "price": 172.26,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000603",
+    "name": "盛达资源",
+    "price": 34.43,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603228",
+    "name": "景旺电子",
+    "price": 94.95,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "001267",
+    "name": "汇绿生态",
+    "price": 42.69,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "605287",
+    "name": "德才股份",
+    "price": 40.93,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002792",
+    "name": "通宇通讯",
+    "price": 37.19,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603773",
+    "name": "沃格光电",
+    "price": 95.07,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603655",
+    "name": "朗博科技",
+    "price": 30.04,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002741",
+    "name": "光华科技",
+    "price": 26.3,
+    "change": 10.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "001223",
+    "name": "欧克科技",
+    "price": 41.17,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002827",
+    "name": "高争民爆",
+    "price": 54.16,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603011",
+    "name": "合锻智能",
+    "price": 22.68,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300404",
+    "name": "博济医药",
+    "price": 10.9,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600110",
+    "name": "诺德股份",
+    "price": 10.46,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600641",
+    "name": "先导基电",
+    "price": 31.28,
+    "change": 9.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "001296",
+    "name": "长江材料",
+    "price": 19.94,
+    "change": 9.98,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600267",
+    "name": "海正药业",
+    "price": 13.11,
+    "change": 9.98,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600500",
+    "name": "中化国际",
+    "price": 5.51,
+    "change": 9.98,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688336",
+    "name": "三生国健",
+    "price": 46.95,
+    "change": 9.98,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603758",
+    "name": "秦安股份",
+    "price": 10.48,
+    "change": 9.97,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600664",
+    "name": "哈药股份",
+    "price": 6.84,
+    "change": 9.97,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300329",
+    "name": "海伦钢琴",
+    "price": 12.91,
+    "change": 9.97,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600651",
+    "name": "飞乐音响",
+    "price": 6.4,
+    "change": 9.97,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603567",
+    "name": "珍宝岛",
+    "price": 7.08,
+    "change": 9.94,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301509",
+    "name": "金凯生科",
+    "price": 31.34,
+    "change": 9.93,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300259",
+    "name": "新天科技",
+    "price": 4.56,
+    "change": 9.88,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301141",
+    "name": "中科磁业",
+    "price": 45.94,
+    "change": 9.88,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002437",
+    "name": "誉衡药业",
+    "price": 3.12,
+    "change": 9.86,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688222",
+    "name": "成都先导",
+    "price": 33.91,
+    "change": 9.81,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688065",
+    "name": "凯赛生物",
+    "price": 48.95,
+    "change": 9.8,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002080",
+    "name": "中材科技",
+    "price": 56.56,
+    "change": 9.78,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688183",
+    "name": "生益电子",
+    "price": 118.78,
+    "change": 9.78,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688321",
+    "name": "微芯生物",
+    "price": 29.74,
+    "change": 9.74,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688333",
+    "name": "铂力特",
+    "price": 110.34,
+    "change": 9.74,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688669",
+    "name": "聚石化学",
+    "price": 69.5,
+    "change": 9.69,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688136",
+    "name": "科兴制药",
+    "price": 20.29,
+    "change": 9.62,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300758",
+    "name": "七彩化学",
+    "price": 11.39,
+    "change": 9.52,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688352",
+    "name": "颀中科技",
+    "price": 17.38,
+    "change": 9.51,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300347",
+    "name": "泰格医药",
+    "price": 54.35,
+    "change": 9.51,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301070",
+    "name": "开勒股份",
+    "price": 67.49,
+    "change": 9.51,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688166",
+    "name": "博瑞医药",
+    "price": 38.14,
+    "change": 9.5,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300395",
+    "name": "菲利华",
+    "price": 89.6,
+    "change": 9.5,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "000711",
+    "name": "ST京蓝",
+    "price": 5.57,
+    "change": 9.43,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688002",
+    "name": "睿创微纳",
+    "price": 170.04,
+    "change": 9.34,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688382",
+    "name": "益方生物-U",
+    "price": 20.77,
+    "change": 9.26,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301150",
+    "name": "中一科技",
+    "price": 40.91,
+    "change": 9.24,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688356",
+    "name": "键凯科技",
+    "price": 74.5,
+    "change": 9.24,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603217",
+    "name": "元利科技",
+    "price": 24.83,
+    "change": 9.14,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688759",
+    "name": "必贝特-U",
+    "price": 25.37,
+    "change": 9.12,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688388",
+    "name": "嘉元科技",
+    "price": 28.8,
+    "change": 9.09,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688513",
+    "name": "苑东生物",
+    "price": 49.81,
+    "change": 9.09,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002636",
+    "name": "金安国纪",
+    "price": 65.4,
+    "change": 9.02,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600961",
+    "name": "株冶集团",
+    "price": 29.4,
+    "change": 9.01,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600397",
+    "name": "江钨装备",
+    "price": 18.41,
+    "change": 9.0,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688755",
+    "name": "汉邦科技",
+    "price": 27.39,
+    "change": 8.99,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688399",
+    "name": "硕世生物",
+    "price": 30.19,
+    "change": 8.91,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301526",
+    "name": "国际复材",
+    "price": 38.32,
+    "change": 8.86,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300434",
+    "name": "金石亚药",
+    "price": 11.45,
+    "change": 8.84,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "600176",
+    "name": "中国巨石",
+    "price": 44.38,
+    "change": 8.83,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301086",
+    "name": "鸿富瀚",
+    "price": 118.86,
+    "change": 8.83,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301389",
+    "name": "隆扬电子",
+    "price": 53.84,
+    "change": 8.81,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300083",
+    "name": "创世纪",
+    "price": 14.48,
+    "change": 8.79,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "002579",
+    "name": "中京电子",
+    "price": 15.15,
+    "change": 8.76,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688630",
+    "name": "芯碁微装",
+    "price": 426.99,
+    "change": 8.75,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300227",
+    "name": "光韵达",
+    "price": 11.47,
+    "change": 8.72,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688025",
+    "name": "杰普特",
+    "price": 342.81,
+    "change": 8.69,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300255",
+    "name": "常山药业",
+    "price": 28.11,
+    "change": 8.66,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300964",
+    "name": "本川智能",
+    "price": 59.18,
+    "change": 8.63,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688653",
+    "name": "康希通信",
+    "price": 14.22,
+    "change": 8.55,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688488",
+    "name": "艾迪药业",
+    "price": 17.54,
+    "change": 8.54,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301188",
+    "name": "力诺药包",
+    "price": 41.69,
+    "change": 8.54,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300618",
+    "name": "寒锐钴业",
+    "price": 36.79,
+    "change": 8.53,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603259",
+    "name": "药明康德",
+    "price": 154.82,
+    "change": 8.49,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688302",
+    "name": "海创药业-U",
+    "price": 37.2,
+    "change": 8.45,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300199",
+    "name": "翰宇药业",
+    "price": 24.38,
+    "change": 8.45,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688266",
+    "name": "泽璟制药-U",
+    "price": 121.7,
+    "change": 8.45,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300749",
+    "name": "顶固集创",
+    "price": 22.1,
+    "change": 8.44,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "300584",
+    "name": "海辰药业",
+    "price": 35.98,
+    "change": 8.44,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "601168",
+    "name": "西部矿业",
+    "price": 43.07,
+    "change": 8.41,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "688220",
+    "name": "翱捷科技-U",
+    "price": 112.4,
+    "change": 8.39,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603456",
+    "name": "九洲药业",
+    "price": 16.45,
+    "change": 8.37,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301303",
+    "name": "真兰仪表",
+    "price": 14.51,
+    "change": 8.36,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "301281",
+    "name": "科源制药",
+    "price": 41.39,
+    "change": 8.35,
+    "score": 30,
+    "reason": "今日涨幅强势"
+  },
+  {
+    "code": "603986",
+    "name": "兆易创新",
+    "price": 417.05,
+    "change": 8.32,
+    "score": 30,
+    "reason": "今日涨幅强势"
   }
 ]
