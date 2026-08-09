@@ -11,7 +11,7 @@ url = "https://push2.eastmoney.com/api/qt/clist/get"
 params = {
 
     "pn": 1,
-    "pz": 6000,
+    "pz": 10,
     "fs": "m:0+t:6,m:1+t:2",
     "fields": "f12,f14"
 
@@ -41,45 +41,30 @@ result = response.json()
 print("接口返回成功")
 
 
+print("返回结构：")
 
-stocks = []
-
-
-
-# 检查数据结构
-
-items = result["data"]["diff"]
+print(result.keys())
 
 
 
-for item in items:
+print("data内容：")
 
-    stocks.append({
-
-        "code": item["f12"],
-
-        "name": item["f14"]
-
-    })
+print(result.get("data"))
 
 
 
-with open(
-    "data/all_stocks.json",
-    "w",
-    encoding="utf-8"
-) as f:
+print("diff类型：")
 
-    json.dump(
-        stocks,
-        f,
-        ensure_ascii=False,
-        indent=2
-    )
+print(type(result["data"]["diff"]))
 
 
 
-print(
-    "股票池数量:",
-    len(stocks)
-)
+print("第一条数据：")
+
+print(result["data"]["diff"][0])
+
+
+
+print("第一条数据类型：")
+
+print(type(result["data"]["diff"][0]))
