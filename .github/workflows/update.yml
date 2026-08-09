@@ -20,3 +20,11 @@ jobs:
 
       - name: Analyze stocks
         run: python scripts/analyze_stock.py
+
+      - name: Commit ranking data
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add data/ranking.json
+          git commit -m "Update stock ranking" || echo "No changes"
+          git push
