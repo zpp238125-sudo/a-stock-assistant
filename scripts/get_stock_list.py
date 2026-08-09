@@ -1,11 +1,23 @@
 import akshare as ak
 import json
+import time
 
 
 print("开始获取A股股票列表")
 
 
-df = ak.stock_info_a_code_name()
+try:
+
+    df = ak.stock_zh_a_spot_em()
+
+except Exception as e:
+
+    print("第一次获取失败，等待重试")
+
+    time.sleep(5)
+
+    df = ak.stock_zh_a_spot_em()
+
 
 
 stocks = []
@@ -15,11 +27,12 @@ for _, row in df.iterrows():
 
     stocks.append({
 
-        "code": row["code"],
+        "code": str(row["代码"]),
 
-        "name": row["name"]
+        "name": row["名称"]
 
     })
+
 
 
 with open(
@@ -29,15 +42,18 @@ with open(
 ) as f:
 
     json.dump(
+
         stocks,
+
         f,
+
         ensure_ascii=False,
+
         indent=2
+
     )
 
 
 print("股票数量:", len(stocks))
 
 print("股票列表生成完成")
-
-print("股票池生成完成")
