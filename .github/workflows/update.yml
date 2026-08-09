@@ -11,5 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Run stock update
         run: python scripts/update_data.py
