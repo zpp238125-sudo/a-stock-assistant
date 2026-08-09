@@ -1,5 +1,6 @@
 import json
 import requests
+import time
 
 
 print("开始获取A股股票列表")
@@ -8,57 +9,77 @@ print("开始获取A股股票列表")
 url = "https://push2.eastmoney.com/api/qt/clist/get"
 
 
-params = {
-
-    "pn": 1,
-
-    "pz": 6000,
-
-    "fs": "m:0+t:6,m:1+t:2",
-
-    "fields": "f12,f14"
-
-}
-
-
 headers = {
-
     "User-Agent": "Mozilla/5.0"
-
 }
-
-
-response = requests.get(
-    url,
-    params=params,
-    headers=headers,
-    timeout=10
-)
-
-
-
-result = response.json()
-
-
-
-items = result["data"]["diff"]
-
 
 
 stocks = []
 
 
+page_size = 100
 
-for key, item in items.items():
 
-    stocks.append({
+for page in range(1, 40):
 
-        "code": item["f12"],
 
-        "name": item["f14"]
+    params = {
 
-    })
+        "pn": page,
 
+        "pz": page_size,
+
+        "fs": "m:0+t:6,m:1+t:2",
+
+        "fields": "f12,f14"
+
+    }
+
+
+    response = requests.get(
+        url,
+        params=params,
+        headers=headers,
+        timeout=10
+    )
+
+
+    result = response.json()
+
+
+    data = result.get("data")
+
+
+    if not data:
+        break
+
+
+    diff = data.get("diff")
+
+
+    if not diff:
+        break
+
+
+
+    for key,item in diff.items():
+
+        stocks.append({
+
+            "code": item["f12"],
+
+            "name": item["f14"]
+
+        })
+
+
+    print(
+        "已获取:",
+        len(stocks)
+    )
+
+
+    time.sleep(0.2)
 
 
 
@@ -67,6 +88,7 @@ with open(
     "w",
     encoding="utf-8"
 ) as f:
+
 
     json.dump(
         stocks,
@@ -77,6 +99,9 @@ with open(
 
 
 
-print("股票池数量:", len(stocks))
+print(
+    "股票池最终数量:",
+    len(stocks)
+)
 
 print("股票池更新完成")
